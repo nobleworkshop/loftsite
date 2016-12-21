@@ -1,0 +1,47 @@
+input.checkbox--replace {
+	left: -9999px;
+	position: absolute;
+} 
+
+.checkbox {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	margin-right: 10px;
+	background: url('/assets/img/icons/checkbox--normal.png') no-repeat center;
+	vertical-align: bottom;
+}
+
+input.checkbox--replace[type="checkbox"]:checked + .checkbox {
+	background: url('/assets/img/icons/checkbox--active.png') no-repeat center;
+}
+
+label {
+	cursor: pointer;
+	display: inline-block;
+}
+
+input.radio--replace {
+	left: -9999px;
+	position: absolute;
+} 
+
+.radio {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	margin-right: 10px;
+	background: url('/assets/img/icons/radio--no.png') no-repeat center;
+	vertical-align: bottom;
+}
+
+input.radio--replace[type="radio"]:checked + .radio {
+	background: url('/assets/img/icons/radio--yes.png') no-repeat center;
+}
+
+
+
+
+

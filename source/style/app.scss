@@ -1,5 +1,17 @@
-body {
-  margin: 0;
-}
+// @import "common/greating.scss";
 
-@import 'common/greating';
+// Base
+@import "base/_base.scss";
+@import "base/_form.scss";
+
+
+
+// Blocks
+@import "blocks/_auth.scss";
+@import "blocks/_copyright.scss";
+
+
+
+// Sections
+
+

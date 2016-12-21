@@ -11,6 +11,9 @@ Getting started:
 4. npm install
 6. run "gulp" command to start
 
+7. use local gulp-cli can make it run
+7. node ./node_modules/gulp/bin/gulp.js
+
 ## Что было сделано
 
 1. Добавлен таск `copy:fonts` который копирует шрифты.

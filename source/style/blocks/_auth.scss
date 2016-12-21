@@ -1,0 +1,243 @@
+.auth-bg {
+	background: url('/assets/img/bg/bg_auth.jpg') no-repeat center;
+	background-size: cover;
+	height: 100%;
+
+}
+
+.auth-form {
+    font-size: 16px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    overflow: hidden;
+
+    width: 380px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: #fff;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
+    background-color: rgba(18, 38, 32, .6);
+}
+
+
+
+.auth-form__title {
+    font-family: 'Sansus Webissimo';
+    font-size: 35px;
+
+    position: relative;
+
+    margin-bottom: 31px;
+    padding-bottom: 20px;
+
+    color: #fff;
+    &:after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+
+        display: block;
+
+        width: 89px;
+        height: 3px;
+
+        content: '';
+        transform: translateX(-50%);
+
+        background-color: #fff;
+    }
+}
+
+
+.auth-form__input {
+    font-size: 16px;
+
+    display: block;
+
+    width: 100%;
+    height: 45px;
+    padding-right: 20px;
+    padding-left: 20px+45px;
+
+    text-align: left;
+
+    color: #373e42;
+    border: none;
+    border-radius: 80px;
+}
+
+
+.auth-form__label--user {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    height: 45px;
+    margin-bottom: 20px;
+
+    border-radius: 80px;
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 30px;
+        width: 45px;
+        height: 30px;
+        height: 45px;
+
+        content: '';
+
+        background-color: #f0efe9;
+        // background-color: red;
+        background-image: url('/assets/img/svg/login.svg');
+        background-repeat: no-repeat;
+        background-position: 55% 45%;
+    }
+}
+
+
+
+
+.auth-form__label--password {
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    height: 45px;
+    margin-bottom: 20px;
+
+    border-radius: 80px;
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 30px;
+        width: 45px;
+        height: 30px;
+        height: 45px;
+
+        content: '';
+
+        background-color: #f0efe9;
+        // background-color: red;
+        background-image: url('/assets/img/svg/password.svg');
+        background-repeat: no-repeat;
+        background-position: 55% 45%;
+    }
+}
+
+
+
+.auth-form__label--checkbox {
+    display: block;
+
+    width: 100%;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    color: #fff;
+    input {
+        margin-right: 10px;
+    }
+}
+
+.auth-form__label--radio {
+    display: inline;
+    margin-bottom: 20px;
+    text-align: left;
+
+    color: #fff;
+    input {
+        margin-right: 10px;
+    }
+}
+
+
+.auth-form__question {
+    display: block;
+
+    width: 100%;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    color: #fff;
+    input {
+        margin-right: 10px;
+    }
+}
+
+
+
+.auth-form__radiogroup {
+    input {
+        margin-right: 10px;
+    }
+
+    input:checked + span {
+        color: #6c9c5a;
+    }
+
+    label {
+        margin-right: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+
+
+// Buttons
+
+.auth-form__button {
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 45px;
+    padding-top: 12px;
+    color: #fff;
+    background-color: #6c9c5a;
+    &:hover {
+        cursor: pointer;
+        background-color: #4e8839;
+    }
+}
+
+.auth-form__button--back {
+    left: 0;
+    &:after {
+    	content: "";
+    	display: block;
+    	height: 45px;
+    	width: 2px;
+    	background-color: rgba(222,227,231,0.5);
+    }
+}
+
+.auth-form__button--enter {
+    right: 0;
+}
