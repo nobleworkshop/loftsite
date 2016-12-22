@@ -1,3 +1,18 @@
+# Что уже готово
+
+1. Страница Авторизации
+
+> http://localhost:3000/auth.html
+
+2. Страница welcome
+
+> http://localhost:3000/welcome.html
+
+*Интересно улышать критику и места которые можно улучшить*
+
+
+
+
 #Учебная сборка Loftschool (выпускной проект №1) 
 
 Stack:
@@ -12,7 +27,8 @@ Getting started:
 6. run "gulp" command to start
 
 7. use local gulp-cli can make it run
-7. node ./node_modules/gulp/bin/gulp.js
+
+> node ./node_modules/gulp/bin/gulp.js
 
 ## Что было сделано
 

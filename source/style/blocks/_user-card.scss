@@ -1,0 +1,152 @@
+.user-card {
+	font-size: 16px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	overflow: hidden;
+
+	width: 380px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 80px;
+	padding-left: 20px;
+
+	transform: translate(-50%, -50%);
+	text-align: center;
+
+	color: #fff;
+	-webkit-border-radius: 4px;
+	        border-radius: 4px;
+	background-color: rgba(18, 38, 32, .6);
+}
+
+.user-card__photo {
+	font-size: 28px;
+	font-weight: 500;
+	width: 141px;
+	height: 141px;
+	-webkit-border-radius: 80px;
+	        border-radius: 80px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	
+
+	img {
+		
+	}
+} 
+
+.user-card__title {
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 10px;
+} 
+
+
+.user-card__icons {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	text-align: center;
+	
+	a {
+		display: inline-block;
+		margin-right: 27px;
+		
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	a:hover {
+
+		img {
+			margin-top: 10px;
+		}
+	}
+	
+	img {
+		margin-right: 27px;
+		
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+
+
+.user-card__button-group {
+	height: 45px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: stretch;
+	align-items: stretch;
+}
+
+.user-card__button {
+	// order: 0;
+    flex: 1 1 auto;
+    align-self: stretch;
+	
+
+	font-size: 16px;
+	font-weight: 500;
+	padding-top: 12px;
+	color: #fff;
+	background-color: #6c9c5a;
+
+
+
+	&:hover {
+	    cursor: pointer;
+	    background-color: #4e8839;
+	}
+
+	&:first-child {
+		
+	}
+
+	&:last-child {
+		
+	}
+}
+
+// .flex-container {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//     justify-content: center;
+//     align-content: stretch;
+//     align-items: stretch;
+//     }
+
+// .flex-item:nth-child(1) {
+//     order: 0;
+//     flex: 1 1 auto;
+//     align-self: stretch;
+//     }
+
+// .flex-item:nth-child(2) {
+//     order: 0;
+//     flex: 1 1 auto;
+//     align-self: stretch;
+//     }
+
+// .flex-item:nth-child(3) {
+//     order: 0;
+//     flex: 1 1 auto;
+//     align-self: stretch;
+//     }

@@ -1,0 +1,107 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title #{title}
+		meta(content="" name="author")
+		meta(content="" name="description")
+		meta(content="" name="keywords")
+		meta(content="width=device-width, initial-scale=1" name="viewport")
+		meta(content="ie=edge" http-equiv="x-ua-compatible")
+
+		//- favicon block start
+		//- favicon block end
+
+		link(rel='stylesheet' href='/assets/css/foundation.css')
+		link(rel='stylesheet' href='/assets/css/app.css')
+		script(src='/assets/js/foundation.js' defer)
+		script(src='/assets/js/app.js' defer)
+
+		<!--[if lt IE 9]>
+		script(src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js")
+		<![endif]-->
+
+	body.auth-bg
+		.button.button--left-top-corner Авторизоваться
+
+
+
+		.user-card 
+
+
+
+			.user-card__photo
+				img(src="assets/img/usercontent/user-photo.jpg")
+
+			.user-card__title Владимир Астахов
+
+			p Личный сайт веб разработчика
+
+			.user-card__icons
+				a(href="#") 
+					img(src="assets/img/svg/vk.svg")
+				a(href="#")
+					img(src="assets/img/svg/github.svg")
+				a(href="#")
+					img(src="assets/img/svg/in.svg")
+
+
+			.user-card__button-group
+				.user-card__button Мои работы
+				.user-card__button Обо мне
+				.user-card__button Блог
+
+
+
+
+		//- .auth-form
+
+
+			
+		//- 	form
+		//- 		.auth-form__title
+		//- 			| Авторизуйтесь
+
+		//- 		label.auth-form__label--user
+		//- 			input.auth-form__input(placeholder="Логин")
+
+		//- 		label.auth-form__label--password
+		//- 			input.auth-form__input(placeholder="Пароль")
+				
+		//- 		label.auth-form__label--checkbox
+		//- 			input.checkbox--replace(type='checkbox')
+		//- 			span.checkbox
+		//- 			|Я человек
+
+		//- 		div.auth-form__question
+		//- 			strong Вы точно не робот?
+
+
+		//- 		div.auth-form__radiogroup
+		//- 			label.auth-form__label--radio 
+		//- 				input.radio--replace(type='radio' name='robot')
+		//- 				span.radio
+		//- 				span Да
+		//- 			label.auth-form__label--radio 
+		//- 				input.radio--replace(type='radio' name='robot')
+		//- 				span.radio
+		//- 				span Не уверен
+
+
+
+		//- 		.auth-form__button.auth-form__button--back На главную
+		//- 		.auth-form__button.auth-form__button--enter Войти
+
+
+		.copyright
+			| © Владимир Астахов | создано с любовью в LoftSchool | 2016
+
+
+
+
+
+
+
+
+
+
