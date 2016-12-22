@@ -11,6 +11,10 @@
 *Интересно улышать критику и места которые можно улучшить*
 
 
+## Рабочая версия сайта:
+
+> http://loft.rightblog.ru/auth.html
+> http://loft.rightblog.ru/welcome.html
 
 
 #Учебная сборка Loftschool (выпускной проект №1) 
